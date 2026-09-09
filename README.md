@@ -23,7 +23,8 @@ SIMT AI is an intelligent opportunity-matching platform that connects people in 
 
 <div align="center">
 
-<img src="docs/architecture.png" alt="SIMT AI Architecture" width="900">
+<img src="![Uploading architecture.png…]()
+" alt="SIMT AI Architecture" width="900">
 
 </div>
 
