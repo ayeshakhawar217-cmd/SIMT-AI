@@ -1,5 +1,3 @@
-<img width="1493" height="704" alt="architecture" src="https://github.com/user-attachments/assets/33316864-9f46-45f3-b1cc-11552442534c" />
-<div align="center">
 
 # SIMT AI
 
