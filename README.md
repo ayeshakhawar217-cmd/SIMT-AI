@@ -21,11 +21,6 @@
 
 SIMT AI is an intelligent opportunity-matching platform that connects people in Pakistan with scholarships, jobs, training programs, business support, loans, grants, and other opportunities relevant to their circumstances. Instead of searching across scattered platforms and figuring out eligibility program by program, users simply describe their situation in plain language, and SIMT AI understands their needs, builds a structured profile, checks eligibility, and uses semantic AI to surface and rank the opportunities that are the best fit.
 
-<div align="center">
-
-<img src="docs/architecture.png" alt="SIMT AI Architecture" width="900">
-
-</div>
 
 ## How It Works
 
