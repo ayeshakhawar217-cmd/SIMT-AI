@@ -1,0 +1,3 @@
+import styles from "./ProfileSummary.module.css";
+import { fieldLabels, formatValue } from "../utils/formatters";
+export default function ProfileSummary({ profile }) { const entries = Object.entries(profile || {}).map(([key, value]) => [fieldLabels[key] || key, formatValue(key, value)]).filter(([, value]) => value); if (!entries.length) return null; return <section className={styles.section}><div className={styles.title}><span>YOUR PROFILE</span><h2>What SIMT understood</h2></div><div className={styles.grid}>{entries.map(([label, value]) => <div className={styles.item} key={label}><span>{label}</span><strong>{value}</strong></div>)}</div></section>; }

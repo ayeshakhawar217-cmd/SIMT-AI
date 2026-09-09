@@ -1,0 +1,3 @@
+import styles from "./HowItWorks.module.css";
+const steps = [["01", "Tell us", "Describe your situation in your own words."], ["02", "Understand", "SIMT identifies the details that matter."], ["03", "Match", "Relevant opportunities are ranked for you."], ["04", "Take action", "Review the guidance and official source."]];
+export default function HowItWorks() { return <section className={styles.section} id="how-it-works"><div className={styles.header}><span>HOW IT WORKS</span><h2>A simple route to the right opportunity.</h2><p>UNDERSTAND <b>→</b> MATCH <b>→</b> EXPLAIN <b>→</b> GUIDE</p></div><ol>{steps.map(([number, title, text]) => <li key={number}><span>{number}</span><h3>{title}</h3><p>{text}</p></li>)}</ol></section>; }

@@ -1,0 +1,6 @@
+import Navbar from "../components/Navbar";
+import WhyMatch from "../components/WhyMatch";
+import ActionPlan from "../components/ActionPlan";
+import { isEligible, matchName, scoreOf } from "../utils/formatters";
+import styles from "./ProgramDetailPage.module.css";
+export default function ProgramDetailPage({ match, onBack, onNewSearch }) { if (!match) return <><Navbar onNavigate={onNewSearch} /><main className={styles.empty}><h1>This opportunity is unavailable</h1><button onClick={onBack}>Back to results</button></main></>; const eligible = isEligible(match); return <><Navbar onNavigate={onNewSearch} /><main className={styles.page}><button className={styles.back} onClick={onBack}>← Back to results</button><header className={styles.hero}><div><span className={styles.category}>{match.category || "Opportunity"}</span><h1>{matchName(match)}</h1><p>{match.provider || match.organization || "Program information supplied by SIMT."}</p></div><div className={styles.score}><strong>{scoreOf(match)}%</strong><span>Match score</span></div></header>{eligible !== null && <p className={eligible ? styles.eligible : styles.ineligible}>{eligible ? "✓ Eligible based on the available information" : "✕ Some criteria may not be met"}</p>}<WhyMatch match={match} /><ActionPlan match={match} /></main></>; }

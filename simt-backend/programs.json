@@ -1,0 +1,1881 @@
+[
+  {
+    "program_name": "HEC Need-Based Scholarship Programme",
+    "provider": "Higher Education Commission (HEC), Government of Pakistan",
+    "category": "Education",
+    "audience": "Financially constrained undergraduate students enrolled in selected participating public-sector universities",
+    "geography": "Pakistan",
+    "eligibility": {
+      "education_level": "Undergraduate",
+      "enrollment_requirement": "Applicant must be enrolled in a selected participating public-sector university / degree awarding institution",
+      "financial_need": "Applicant must be financially constrained; financial need is assessed by the Institutional Scholarship Award Committee",
+      "admission_type": "Students admitted on self-finance are not eligible",
+      "existing_scholarship": "Students already receiving financial assistance or scholarship from a university/institute are not eligible",
+      "affiliated_college": "Students studying in affiliated colleges of participating universities are not eligible"
+    },
+    "benefit": {
+      "tuition_fee": "Tuition fee support",
+      "stipend": "PKR 6,000 per month"
+    },
+    "documents": [
+      "Salary slip",
+      "Utility bills",
+      "Parent / guardian CNIC"
+    ],
+    "application_process": {
+      "step_1": "Get admission in a selected participating public-sector university",
+      "step_2": "Apply directly through the university's Financial Aid Office",
+      "step_3": "Submit the completed scholarship application and required supporting documents"
+    },
+    "official_source": "https://www.hec.gov.pk/english/scholarshipsgrants/NBS/Pages/Eligibility-Criteria.aspx",
+    "last_verified": "2026-09-02",
+    "notes": "Provides financial assistance to financially constrained undergraduate students at participating public-sector universities.",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": "Undergraduate",
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [
+        {
+          "flag": "on_self_finance_admission",
+          "reason": "Students admitted on self-finance are not eligible"
+        },
+        {
+          "flag": "has_existing_scholarship",
+          "reason": "Students already receiving financial assistance or scholarship are not eligible"
+        },
+        {
+          "flag": "in_affiliated_college",
+          "reason": "Students studying in affiliated colleges are not eligible"
+        }
+      ],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Kamyab Jawan Business Loan",
+    "provider": "Prime Minister's Youth Programme",
+    "category": "Financial Support",
+    "audience": "Young entrepreneurs starting or expanding a small business",
+    "geography": "Pakistan",
+    "eligibility": {
+      "age": "21-45 years",
+      "business_stage": "Startup or existing small business"
+    },
+    "benefit": {
+      "loan_amount": "PKR 100,000 to PKR 2,500,000"
+    },
+    "documents": [
+      "CNIC",
+      "Proof of address",
+      "Business summary"
+    ],
+    "application_process": {
+      "step_1": "Register business with SECP",
+      "step_2": "Apply through official portal"
+    },
+    "official_source": "https://www.pmyp.gov.pk/",
+    "last_verified": "2026-09-01",
+    "notes": "Flagship youth business financing scheme covering startup and early-stage businesses.",
+    "match_criteria": {
+      "age_min": 21,
+      "age_max": 45,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [
+        "idea",
+        "startup",
+        "existing"
+      ],
+      "sector": [],
+      "min_funding": 100000,
+      "max_funding": 2500000,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Skills of Tomorrow Program 2026",
+    "provider": "National Vocational & Technical Training Commission (NAVTTC), Government of Pakistan",
+    "category": "Skills & Training",
+    "audience": "Pakistani youth seeking modern digital and professional skills",
+    "geography": "Pakistan",
+    "eligibility": {
+      "nationality": "Pakistani citizen with valid CNIC",
+      "age_range": "18-35 years",
+      "minimum_education": "Matriculation or equivalent",
+      "employment_preference": "Unemployed youth are given preference",
+      "training_availability": "Applicant must be available for full-time training",
+      "medical_fitness": "Applicant must be medically fit to undertake the training"
+    },
+    "benefit": {
+      "type": "Free professional skills training",
+      "training_duration": "3-6 months",
+      "certification": "NVQF-recognized certification"
+    },
+    "documents": [
+      "Valid CNIC",
+      "Educational qualification documents"
+    ],
+    "application_process": {
+      "step_1": "Check eligibility",
+      "step_2": "Choose an available course/trade",
+      "step_3": "Register through the NAVTTC NSIS portal",
+      "step_4": "Appear in the NTS aptitude test"
+    },
+    "official_source": "https://navttc.gov.pk/student/",
+    "official_application_portal": "https://nsis.navttc.gov.pk/",
+    "last_verified": "2026-09-02",
+    "notes": "Free training in AI, Power BI, ecommerce, freelancing, graphic design and AI-driven digital marketing/SEO. Course availability varies by intake.",
+    "match_criteria": {
+      "age_min": 18,
+      "age_max": 35,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": "Matric",
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Umeed - Socially Marginalized Skills & Employability Program",
+    "provider": "Punjab Skills Development Fund (PSDF), Government of Punjab",
+    "category": "Skills & Training / Employment",
+    "audience": "Marginalized and underprivileged youth seeking skills development, employment and income-generation opportunities",
+    "geography": "Punjab",
+    "eligibility": {
+      "target_groups": [
+        "Transgender persons",
+        "Persons with special needs",
+        "Other socially marginalized and underprivileged youth"
+      ],
+      "residency": "Punjab"
+    },
+    "benefit": {
+      "type": "Skills training and employability support",
+      "example_training_duration": "12 weeks"
+    },
+    "documents": [
+      "CNIC / applicable identity document"
+    ],
+    "application_process": {
+      "step_1": "Check available Umeed programmes through PSDF",
+      "step_2": "Select a suitable training opportunity"
+    },
+    "official_source": "https://www.psdf.org.pk/program_focus/umeed/",
+    "last_verified": "2026-09-02",
+    "notes": "Focused specifically on transgender persons, persons with special needs, and other marginalized/underprivileged youth in Punjab.",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Punjab"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": [
+        {
+          "flag": "belongs_to_marginalized_group",
+          "reason": "This programme is focused on transgender persons, persons with special needs, and other marginalized or underprivileged youth"
+        }
+      ]
+    }
+  },
+  {
+    "program_name": "Work for Punjab - Chief Minister IT Internship Program",
+    "provider": "Government of Punjab, PITB, P@SHA and PSEB",
+    "category": "Employment",
+    "audience": "Fresh IT graduates seeking practical industry experience and employment opportunities",
+    "geography": "Punjab",
+    "eligibility": {
+      "domicile": "Punjab domicile",
+      "education": "At least 16 years of education in IT and related disciplines",
+      "graduation_period": "Graduated within the last 4 years",
+      "employment_status": "Must be unemployed"
+    },
+    "benefit": {
+      "type": "Paid IT internship",
+      "duration": "4 months",
+      "monthly_stipend": "PKR 50,000"
+    },
+    "documents": [
+      "Valid CNIC",
+      "Punjab domicile",
+      "Degree / educational documents"
+    ],
+    "application_process": {
+      "step_1": "Register on the official website",
+      "step_2": "Complete the online application"
+    },
+    "official_source": "https://cmitinterns.punjab.gov.pk/",
+    "last_verified": "2026-09-02",
+    "notes": "Four-month paid internship for fresh IT graduates with a PKR 50,000 monthly stipend.",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Punjab"
+      ],
+      "education_level": "Undergraduate",
+      "gender": [],
+      "employment_status": [
+        "unemployed"
+      ],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": [
+        {
+          "flag": "graduated_within_4_years",
+          "reason": "Applicant must have graduated within the last 4 years"
+        },
+        {
+          "flag": "studied_it_related_discipline",
+          "reason": "Applicant must have studied an eligible IT-related discipline (CS, IT, Cyber Security, AI, Data Science, etc.)"
+        }
+      ]
+    }
+  },
+  {
+    "program_name": "Punjab Rozgar Scheme (PRS)",
+    "provider": "Punjab Small Industries Corporation (PSIC), Government of Punjab",
+    "category": "Entrepreneurship / Financial Support",
+    "audience": "Youth, entrepreneurs and existing businesses seeking financing for micro, small and medium enterprises",
+    "geography": "Punjab",
+    "eligibility": {
+      "business_type": "Cottage, micro, small and medium enterprises",
+      "business_stage": "New and existing businesses"
+    },
+    "benefit": {
+      "type": "Business financing / loan",
+      "markup": "Low markup financing"
+    },
+    "documents": [
+      "CNIC",
+      "Business-related documents"
+    ],
+    "application_process": {
+      "step_1": "Review eligibility and financing information",
+      "step_2": "Apply through the official financing process"
+    },
+    "official_source": "https://psic.punjab.gov.pk/node/14",
+    "last_verified": "2026-09-02",
+    "notes": "Promotes cottage/micro/small/medium enterprises with low-markup loans, including green and resource-efficient business activities.",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Punjab"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [
+        "idea",
+        "startup",
+        "existing"
+      ],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Prime Minister's Youth Business & Agriculture Loan Scheme (PMYB&ALS)",
+    "provider": "Prime Minister's Youth Programme, Government of Pakistan",
+    "category": "Financial Support / Entrepreneurship",
+    "audience": "Pakistani residents with entrepreneurial potential",
+    "geography": "Pakistan",
+    "eligibility": "All Pakistani residents aged 21-45 with entrepreneurial potential; 18 years minimum for IT/E-Commerce related businesses.",
+    "benefit_amount": {
+      "tier_1": "Up to PKR 500,000",
+      "tier_2": "Up to PKR 1,500,000",
+      "tier_3": "Up to PKR 7,500,000"
+    },
+    "documents": [
+      "CNIC (front/back)",
+      "Educational documents if applicable",
+      "Recommendation letter for existing businesses"
+    ],
+    "application_process": "Sign up and submit the application online through the official PMYB&ALS website.",
+    "official_source": "https://pmybals.pmyp.gov.pk/",
+    "last_verified": "2026-09-02",
+    "notes": "General age range is 21-45; lower age limit of 18 applies specifically to IT/E-Commerce businesses (not separately encoded in match_criteria \u2014 flag for manual review if applicant is 18-20 in IT/ecommerce sector).",
+    "match_criteria": {
+      "age_min": 21,
+      "age_max": 45,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [
+        "idea",
+        "startup",
+        "existing"
+      ],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": 7500000,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Benazir Kafaalat Programme",
+    "provider": "Benazir Income Support Programme (BISP), Government of Pakistan",
+    "category": "Financial Support",
+    "audience": "Eligible households identified through the National Socio-Economic Registry (NSER) survey",
+    "geography": "Pakistan",
+    "eligibility": {
+      "method": "Proxy Means Test (PMT) through the NSER survey",
+      "standard_pmt_cutoff": 32,
+      "differently_abled_family_pmt_cutoff": 37
+    },
+    "benefit": {
+      "type": "Unconditional Cash Transfer",
+      "amount": 13500,
+      "currency": "PKR",
+      "frequency": "Quarterly"
+    },
+    "application_process": {
+      "registration": "Through BISP registration centers / Dynamic Registration Centers"
+    },
+    "official_source": "https://bisp.gov.pk/",
+    "official_portal": "https://8171.bisp.gov.pk/",
+    "last_verified": "2026-09-02",
+    "notes": "Eligibility is determined entirely by a household PMT survey score, not self-reported income \u2014 cannot be reliably auto-matched from a simple profile.",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": [
+        {
+          "flag": "confirmed_via_nser_survey",
+          "reason": "Eligibility is determined by an NSER household survey and Proxy Means Test \u2014 this cannot be verified automatically. Check your status at your nearest BISP registration center or 8171 portal."
+        }
+      ]
+    }
+  },
+  {
+    "program_name": "Pakistan Bait-ul-Mal Education Assistance",
+    "provider": "Pakistan Bait-ul-Mal (PBM), Government of Pakistan",
+    "category": "Education / Financial Support",
+    "audience": "Poor and deserving students studying in government educational institutions",
+    "geography": "Pakistan",
+    "eligibility": {
+      "institution_type": "Government educational institution",
+      "private_student": "Private students are not eligible",
+      "self_finance": "Self-finance / self-sustained students are not eligible",
+      "other_government_assistance": "Applicants receiving assistance from any other government department are not eligible",
+      "parent_guardian_employment": "Student's father, mother or guardian must not be a government employee"
+    },
+    "benefit": {
+      "maximum_amount": "Up to PKR 150,000 per student per year"
+    },
+    "documents": [
+      "Student CNIC",
+      "Bonafide Certificate",
+      "Fee slip"
+    ],
+    "application_process": {
+      "step_1": "Obtain Bonafide Certificate",
+      "step_2": "Submit to relevant PBM office"
+    },
+    "official_source": "https://www.pbm.gov.pk/Project-Scholarships.html",
+    "last_verified": "2026-09-02",
+    "notes": "Covers university fees including boarding charges, up to PKR 150,000/year, for government-institution students.",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [
+        {
+          "flag": "studies_at_private_institution",
+          "reason": "Private students are not eligible"
+        },
+        {
+          "flag": "on_self_finance_admission",
+          "reason": "Self-finance / self-sustained students are not eligible"
+        },
+        {
+          "flag": "receives_other_govt_assistance",
+          "reason": "Applicants receiving assistance from another government department are not eligible"
+        },
+        {
+          "flag": "parent_is_govt_employee",
+          "reason": "Student's father, mother or guardian must not be a government employee"
+        }
+      ],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Prime Minister's Youth Laptop Scheme",
+    "provider": "Higher Education Commission (HEC), Government of Pakistan",
+    "category": "Education / Digital Support",
+    "audience": "Talented students enrolled in eligible public-sector higher education institutions",
+    "geography": "Pakistan and Azad Jammu & Kashmir",
+    "eligibility": {
+      "institution_eligibility": "Student's institution must be on the HEC-approved list of eligible institutions"
+    },
+    "benefit": {
+      "type": "Laptop",
+      "purpose": "Academic and research activities"
+    },
+    "documents": [
+      "Student profile information via online application system"
+    ],
+    "application_process": {
+      "step_1": "Register through PM Youth Programme / HEC portal",
+      "step_2": "Submit online application"
+    },
+    "official_source": "https://www.hec.gov.pk/english/services/students/pmnls/Pages/default.aspx",
+    "last_verified": "2026-09-02",
+    "notes": "Distribution is merit-based; only students at HEC-approved institutions qualify.",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": "Undergraduate",
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": [
+        {
+          "flag": "enrolled_in_hec_eligible_institution",
+          "reason": "Student's institution must be on the HEC-approved list of eligible institutions"
+        }
+      ]
+    }
+  },
+  {
+    "program_name": "Prime Minister's National Innovation Award (PMNIA)",
+    "provider": "Prime Minister's Youth Programme (PMYP), Government of Pakistan",
+    "category": "Entrepreneurship",
+    "audience": "Young innovators and entrepreneurs with innovative ideas",
+    "geography": "Pakistan",
+    "eligibility": {
+      "idea_requirement": "Applicant must present an innovative idea"
+    },
+    "benefit": {
+      "type": "Equity-free startup grant, incubation and support",
+      "maximum_funding": "Up to PKR 2,000,000"
+    },
+    "documents": [
+      "Details of the innovative idea"
+    ],
+    "application_process": {
+      "step_1": "Submit idea through official process",
+      "step_2": "Regional and national competition"
+    },
+    "official_source": "https://pmybals.pmyp.gov.pk/PMYPHome/PMIL",
+    "last_verified": "2026-09-02",
+    "notes": "Equity-free funding up to PKR 2M across thematic areas (food security, climate, IT, urban planning, sustainable energy, etc.).",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [
+        "idea",
+        "startup"
+      ],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": 2000000,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Chief Minister's Youth Employability Program for BPOs",
+    "provider": "Punjab Skills Development Fund (PSDF), Government of Punjab",
+    "category": "Employment",
+    "audience": "Young people seeking careers in BPO, customer support, digital services and IT-enabled operations",
+    "geography": "Punjab",
+    "eligibility": {
+      "age_range": "16-35 years",
+      "minimum_education": "Matriculation or equivalent",
+      "english": "Functional English communication"
+    },
+    "benefit": {
+      "job_placement": "Guaranteed job placement for successful trainees",
+      "expected_salary": "PKR 45,000-100,000 per month"
+    },
+    "documents": [
+      "CNIC",
+      "Resume",
+      "Educational information"
+    ],
+    "application_process": {
+      "step_1": "Submit application through PSDF",
+      "step_2": "Screening and interview",
+      "step_3": "BPO training"
+    },
+    "official_source": "https://www.psdf.org.pk/global-rozgar/",
+    "last_verified": "2026-09-02",
+    "notes": "Job-ready BPO training with guaranteed employment for successful trainees.",
+    "match_criteria": {
+      "age_min": 16,
+      "age_max": 35,
+      "income_max": null,
+      "provinces": [
+        "Punjab"
+      ],
+      "education_level": "Matric",
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Parwaaz Card",
+    "provider": "Punjab Skills Development Fund (PSDF), Government of Punjab",
+    "category": "Employment / Financial Support",
+    "audience": "Skilled individuals from Punjab seeking overseas employment opportunities",
+    "geography": "Punjab",
+    "eligibility": {
+      "job_offer": "Applicant must have a valid job offer letter",
+      "domicile": "Punjab"
+    },
+    "benefit": {
+      "type": "Interest-free loan and overseas employment support",
+      "maximum_loan": "Up to PKR 1,000,000"
+    },
+    "documents": [
+      "Valid overseas job offer letter",
+      "CNIC"
+    ],
+    "application_process": {
+      "step_1": "Obtain overseas job offer letter",
+      "step_2": "Apply through official PSDF process"
+    },
+    "official_source": "https://www.psdf.org.pk/parwaaz-card/",
+    "last_verified": "2026-09-02",
+    "notes": "Interest-free loan for pre-departure expenses (medical, visa, tickets) plus pre-departure training.",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Punjab"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": 1000000,
+      "exclude_if_true": [],
+      "require_true": [
+        {
+          "flag": "has_overseas_job_offer",
+          "reason": "Applicant must have a valid overseas job offer letter"
+        }
+      ]
+    }
+  },
+  {
+    "program_name": "Chinese Government Scholarship Program 2026-27",
+    "provider": "Higher Education Commission (HEC), Government of Pakistan / Chinese Government",
+    "category": "Education",
+    "audience": "Pakistani and AJK nationals seeking higher education in China",
+    "geography": "Pakistan / China",
+    "eligibility": {
+      "education_level": "Bachelor's, Master's and PhD"
+    },
+    "benefit": {
+      "type": "International higher education scholarship",
+      "available_seats": 75,
+      "study_destination": "China"
+    },
+    "documents": [
+      "Academic documents",
+      "CNIC / Passport information"
+    ],
+    "application_process": {
+      "step_1": "Review HEC scholarship announcement",
+      "step_2": "Submit application before deadline"
+    },
+    "official_source": "https://www.hec.gov.pk/site/CGSP",
+    "last_verified": "2026-09-02",
+    "notes": "75 seats total: 35 Bachelor's, 25 Master's, 15 PhD for 2026-27.",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": "Intermediate",
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Uraan - Women Skills Development Program",
+    "provider": "Punjab Skills Development Fund (PSDF), Government of Punjab",
+    "category": "Skills & Training",
+    "audience": "Women seeking skills training and opportunities for economic participation",
+    "geography": "Punjab",
+    "eligibility": {
+      "gender": "Women",
+      "residency": "Punjab"
+    },
+    "benefit": {
+      "type": "Skills training",
+      "training_fee": "Free training funded through PSDF"
+    },
+    "documents": [
+      "CNIC",
+      "Educational / qualification documents where required"
+    ],
+    "application_process": {
+      "step_1": "Explore available Uraan training courses",
+      "step_2": "Apply through official PSDF process"
+    },
+    "official_source": "https://www.psdf.org.pk/program_focus/uraan/",
+    "last_verified": "2026-09-02",
+    "notes": "Training areas: Fashion Design, Commercial Tailoring, Hand Embroidery, Home Textile, Livestock Management, Digital/E-commerce skills.",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Punjab"
+      ],
+      "education_level": null,
+      "gender": [
+        "woman"
+      ],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Financing Facility for Storage of Agricultural Produce (FFSAP)",
+    "provider": "State Bank of Pakistan (SBP)",
+    "category": "Financial Support / Agriculture",
+    "audience": "Private-sector businesses and eligible enterprises seeking financing for agricultural produce storage infrastructure",
+    "geography": "Pakistan",
+    "notes": "Financing for establishment, expansion and modernization of silos, warehouses and cold storage. Up to PKR 500 million per project, markup up to 6% p.a.",
+    "official_source": "https://www.sbp.org.pk/Incen-others/sme-3.asp",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [
+        "startup",
+        "existing"
+      ],
+      "sector": [
+        "agriculture"
+      ],
+      "min_funding": null,
+      "max_funding": 500000000,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "SEHR - Hospitality Training Program",
+    "provider": "Women Development Department, Government of Punjab",
+    "category": "Skills & Training / Employment",
+    "audience": "Women seeking hospitality skills, self-employment and job opportunities",
+    "geography": "Punjab",
+    "notes": "3-month free in-person hospitality training for women 18-45, Matric minimum, Punjab domicile. Registration currently closed per official page.",
+    "official_source": "https://wdd.punjab.gov.pk/SEHR",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": 18,
+      "age_max": 45,
+      "income_max": null,
+      "provinces": [
+        "Punjab"
+      ],
+      "education_level": "Matric",
+      "gender": [
+        "woman"
+      ],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "status": "closed",
+      "closed_reason": "Registration for this course is currently closed. Check the official page for the next intake.",
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "e-Rozgaar 2.0",
+    "provider": "Punjab Information Technology Board (PITB), Government of Punjab",
+    "category": "Skills & Training / Employment",
+    "audience": "Youth seeking digital skills, freelancing and career development opportunities",
+    "geography": "Pakistan",
+    "notes": "Digital skills training for freelancing and career growth via partner training centers. Eligibility varies by center and course.",
+    "official_source": "https://pitb.gov.pk/",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Ehsaas Naujawan Rozgar Programme",
+    "provider": "Directorate of Youth Affairs, Government of Khyber Pakhtunkhwa",
+    "category": "Financial Support / Entrepreneurship",
+    "audience": "Young people in Khyber Pakhtunkhwa seeking financial support to start or expand a business",
+    "geography": "Khyber Pakhtunkhwa",
+    "notes": "Interest-free loans: PKR 100k-500k (small business via Akhuwat) or PKR 1M-5M (large business via Bank of Khyber). Special quota for women and persons with disabilities.",
+    "official_source": "https://kpyouthaffairs.gov.pk/downloads/ehsaas-naujawan-programme",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": 18,
+      "age_max": 35,
+      "income_max": null,
+      "provinces": [
+        "Khyber Pakhtunkhwa"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [
+        "idea",
+        "startup",
+        "existing"
+      ],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": 5000000,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "SLIIT Undergraduate Scholarship 2026",
+    "provider": "Sri Lanka Institute of Information Technology (SLIIT) / HEC, Pakistan",
+    "category": "Education",
+    "audience": "Pakistani and AJK students seeking undergraduate study opportunities in Sri Lanka",
+    "geography": "Sri Lanka",
+    "notes": "One undergraduate scholarship for Sept/Oct 2026 intake. Covers tuition only, not living costs. Check current application status before treating as open.",
+    "official_source": "https://www.hec.gov.pk/english/HECAnnouncements/Pages/SLIIT.aspx",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": "Intermediate",
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Takamol Skills Verification Program (SVP)",
+    "provider": "NAVTTC, Government of Pakistan / Takamol, Saudi Arabia",
+    "category": "Employment / Skills & Training",
+    "audience": "Pakistani skilled workers seeking employment opportunities in Saudi Arabia",
+    "geography": "Pakistan / Saudi Arabia",
+    "notes": "Skill assessment and certification to support Saudi employment. Trade-specific requirements vary.",
+    "official_source": "https://navttc.gov.pk/",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Omani Scholarship Program for Undergraduate Studies 2026-27",
+    "provider": "Government of Oman / HEC, Pakistan",
+    "category": "Education",
+    "audience": "Pakistani and AJK students seeking fully funded undergraduate study in Oman",
+    "geography": "Oman",
+    "notes": "Fully funded, 2 seats. 2026-27 deadline was 16 July 2026 \u2014 closed as of verification. Age cap 21, min 75% marks, medicine/dentistry/pharmacy/education excluded.",
+    "official_source": "https://www.hec.gov.pk/english/HECAnnouncements/Pages/Omani-Scholarship.aspx",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": 21,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": "Intermediate",
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "status": "closed",
+      "closed_reason": "The 2026-27 application deadline was 16 July 2026. Check HEC for future cycles.",
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Swiss Government Excellence Scholarships 2027-28",
+    "provider": "Government of Switzerland / Embassy of Switzerland in Pakistan",
+    "category": "Education",
+    "audience": "Pakistani students and researchers seeking postgraduate study or research in Switzerland",
+    "geography": "Switzerland",
+    "notes": "1-Year Research Scholarship or 3-Year PhD Scholarship for doctoral candidates. Deadline 31 October 2026.",
+    "official_source": "https://www.hec.gov.pk/english/HECAnnouncements/Pages/SGES.aspx",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": "Graduate",
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Ba-Ikhtiyar Naujawan Internship Program (BNIP)",
+    "provider": "Ministry of Planning, Development & Special Initiatives, Government of Pakistan",
+    "category": "Employment",
+    "audience": "Young graduates seeking practical work experience and entry into the job market",
+    "geography": "Pakistan",
+    "notes": "60,000 paid internships across public/private/development sectors. PKR 25,000-40,000/month, 6-12 months.",
+    "official_source": "https://bnip.gov.pk/",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": "Undergraduate",
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Recognition of Prior Learning (RPL)",
+    "provider": "National Vocational & Technical Training Commission (NAVTTC), Government of Pakistan",
+    "category": "Skills & Training",
+    "audience": "Individuals with existing practical skills or work experience wanting formal certification",
+    "geography": "Pakistan",
+    "notes": "Assessment-only route to NVQF certification, no classroom training needed.",
+    "official_source": "https://navttc.gov.pk/",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Prime Minister's Youth Development Centers (YDCs)",
+    "provider": "Higher Education Commission (HEC), Government of Pakistan",
+    "category": "Employment / Entrepreneurship / Skills & Training",
+    "audience": "University students and young people seeking career guidance, skills, internships, employment and entrepreneurship support",
+    "geography": "Pakistan",
+    "notes": "Career counseling, skills-based education, internship/job guidance, entrepreneurship support at 45+ participating public universities.",
+    "official_source": "https://www.hec.gov.pk/english/services/students/PMYP/Pages/YDC.aspx",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": "Undergraduate",
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [
+        "idea",
+        "startup"
+      ],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Azerbaijan Government Scholarship 2026-27",
+    "provider": "Government of Azerbaijan / HEC, Pakistan",
+    "category": "Education",
+    "audience": "Pakistani and AJK students seeking undergraduate, graduate or doctoral study in Azerbaijan",
+    "geography": "Azerbaijan",
+    "notes": "3 nominations total (UG, grad, doctoral). 2026-27 deadline was 20 March 2026 \u2014 closed as of verification.",
+    "official_source": "https://www.hec.gov.pk/english/HECAnnouncements/Pages/HAZ.aspx",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": "Intermediate",
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "status": "closed",
+      "closed_reason": "The 2026-27 HEC application deadline was 20 March 2026. Check for future cycles.",
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Risk Coverage Scheme for Small Farmers and Underserved Areas",
+    "provider": "State Bank of Pakistan (SBP) / Government of Pakistan",
+    "category": "Financial Support / Agriculture",
+    "audience": "Small and marginalized farmers, subsistence farmers, farmers in unserved/underserved areas",
+    "geography": "Pakistan",
+    "notes": "Loans up to PKR 3 million for crop, dairy/livestock or fisheries, 1 July 2025-30 June 2028. Via participating banks.",
+    "official_source": "https://www.sbp.org.pk/Incen-others/RCSSFUA.asp",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [
+        "existing"
+      ],
+      "sector": [
+        "agriculture"
+      ],
+      "min_funding": null,
+      "max_funding": 3000000,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Women Business Incubation Center (WBIC)",
+    "provider": "Women Development Department, Government of Punjab",
+    "category": "Entrepreneurship",
+    "audience": "Women entrepreneurs and women with viable business ideas",
+    "geography": "Punjab",
+    "notes": "Business incubation, training, mentorship, working environment for developing business ideas.",
+    "official_source": "https://wdd.punjab.gov.pk/",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Punjab"
+      ],
+      "education_level": null,
+      "gender": [
+        "woman"
+      ],
+      "employment_status": [],
+      "business_stage": [
+        "idea",
+        "startup",
+        "existing"
+      ],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "SMEDA Business Development Services",
+    "provider": "Small and Medium Enterprises Development Authority (SMEDA), Government of Pakistan",
+    "category": "Entrepreneurship",
+    "audience": "Existing and aspiring SMEs and entrepreneurs",
+    "geography": "Pakistan",
+    "notes": "Business advisory, training, consultancy, technical assistance. General SME support, not a direct financing scheme.",
+    "official_source": "https://smeda.org.pk/",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [
+        "idea",
+        "startup",
+        "existing"
+      ],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Pakistan Startup Fund (PSF)",
+    "provider": "Ministry of IT & Telecommunication / Ignite National Technology Fund",
+    "category": "Financial Support / Entrepreneurship",
+    "audience": "Early-stage Pakistani startups seeking private investment to develop and scale",
+    "geography": "Pakistan",
+    "notes": "Non-equity grant, 30% of investment round, US$50k-1M. Requires legal incorporation (<10 years old), active FBR tax filer, and advanced-stage private investment already secured.",
+    "official_source": "https://ignite.org.pk/pakistan-startup-fund/",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [
+        "startup",
+        "existing"
+      ],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": [
+        {
+          "flag": "has_registered_startup_with_investment",
+          "reason": "Startup must be legally incorporated in Pakistan (under 10 years old), an active FBR tax filer, and have secured or be in advanced stages of securing private investment"
+        }
+      ]
+    }
+  },
+  {
+    "program_name": "Skills for Tomorrow 2026 - Earning Money Through Freelancing",
+    "provider": "National Vocational and Technical Training Commission (NAVTTC), Government of Pakistan",
+    "category": "Skills & Training",
+    "audience": "Pakistani youth seeking freelancing skills and online earning ability",
+    "geography": "Pakistan",
+    "notes": "3-month free training: Upwork/Fiverr profiles, proposal writing, client acquisition, international payments.",
+    "official_source": "https://navttc.gov.pk/student/",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": 18,
+      "age_max": 35,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": "Matric",
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Small Business Growth Academy",
+    "provider": "Ministry of IT & Telecommunication (MoITT) / Meta",
+    "category": "Skills & Training / Entrepreneurship",
+    "audience": "Small and medium-sized businesses seeking digital business, marketing and AI capabilities",
+    "geography": "Pakistan",
+    "notes": "Free digital transformation training via Meta platforms, launched Aug 2026, targeting 1,000 SMEs by Nov 2026.",
+    "official_source": "https://moitt.gov.pk/",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [
+        "existing"
+      ],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Khadijah - The Women Entrepreneurship Program",
+    "provider": "Pakistan Single Window (PSW), Government of Pakistan",
+    "category": "Entrepreneurship",
+    "audience": "Women entrepreneurs and women-led businesses expanding into domestic/international markets",
+    "geography": "Pakistan",
+    "notes": "Business development training, mentorship, digital trade/export readiness via TradeLab platform.",
+    "official_source": "https://www.psw.gov.pk/khadijah-program",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [
+        "woman"
+      ],
+      "employment_status": [],
+      "business_stage": [
+        "idea",
+        "startup",
+        "existing"
+      ],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "BridgeStart Pakistan",
+    "provider": "Ignite National Technology Fund, MoITT",
+    "category": "Entrepreneurship",
+    "audience": "High-potential Pakistani startups seeking international incubation, acceleration, market access",
+    "geography": "Pakistan",
+    "notes": "Sponsorship/reimbursement for international incubator expenses. Requires secured admission to a recognized international incubator/accelerator, startup under 10 years old.",
+    "official_source": "https://ignite.org.pk/bridgestart/",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [
+        "startup",
+        "existing"
+      ],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": [
+        {
+          "flag": "has_international_incubator_admission",
+          "reason": "Startup must have secured admission to a globally recognized incubator or accelerator"
+        }
+      ]
+    }
+  },
+  {
+    "program_name": "National Power Sector Innovation Programme",
+    "provider": "Ministry of Energy (Power Division), Government of Pakistan",
+    "category": "Entrepreneurship",
+    "audience": "Innovators, startups, researchers developing power-sector solutions",
+    "geography": "Pakistan",
+    "notes": "Launched Aug 2026. Exposure, mentorship, potential pilot implementation for power-sector innovations. No fixed funding amount announced.",
+    "official_source": "https://power.gov.pk/",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [
+        "idea",
+        "startup"
+      ],
+      "sector": [
+        "energy"
+      ],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Apna Khet Apna Rozgar Scheme",
+    "provider": "Government of Punjab",
+    "category": "Financial Support / Agriculture / Entrepreneurship",
+    "audience": "Landless rural residents, rural youth, small-scale farmers and eligible tenants",
+    "geography": "Punjab",
+    "notes": "Interest-free financial support, technical assistance for high-value crop cultivation. Launched May 2026, priority to landless/tenant farmers.",
+    "official_source": "Punjab Government - Apna Khet Apna Rozgar official portal",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Punjab"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [
+        "idea",
+        "startup"
+      ],
+      "sector": [
+        "agriculture"
+      ],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Young Professionals Programme (YPP) 2026",
+    "provider": "Punjab Public Private Partnership Authority (P4A), Government of Punjab",
+    "category": "Employment",
+    "audience": "Young professionals seeking practical experience in public-private partnership and infrastructure work",
+    "geography": "Punjab",
+    "notes": "Paid professional programme. 2026 application deadline was 22 July 2026 \u2014 closed as of verification.",
+    "official_source": "https://p4a.punjab.gov.pk/node/515",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Punjab"
+      ],
+      "education_level": "Undergraduate",
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "status": "closed",
+      "closed_reason": "The 2026 application deadline was 22 July 2026. Check for the next round.",
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "WorldSkills Pakistan National Skills Competition 2026",
+    "provider": "National Vocational and Technical Training Commission (NAVTTC), Government of Pakistan",
+    "category": "Skills & Training",
+    "audience": "Pakistani youth and skilled workers participating in technical/vocational competitions",
+    "geography": "Pakistan",
+    "notes": "National-level skills competition, requirements vary by trade category.",
+    "official_source": "https://navttc.gov.pk/",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Prime Minister's National Volunteer Corps",
+    "provider": "Prime Minister's Youth Programme (PMYP), Government of Pakistan",
+    "category": "Skills & Training",
+    "audience": "Youth interested in volunteering, disaster response, climate action, community development",
+    "geography": "Pakistan",
+    "notes": "Targets 200,000 volunteers over 2 years. Training in disaster risk reduction, climate resilience, alternative learning, basic entrepreneurship.",
+    "official_source": "https://pmybals.pmyp.gov.pk/PMYPHome/Engagement",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Prime Minister's Youth Programme - Country of Destination Initiative",
+    "provider": "PMYP / NAVTTC, Government of Pakistan",
+    "category": "Employment",
+    "audience": "Youth seeking skills and employment matched to demand in specific destination countries",
+    "geography": "Pakistan",
+    "notes": "Country-specific skills preparation for overseas labour markets, via accredited training institutes.",
+    "official_source": "https://navttc.gov.pk/advertisements/",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "National Assembly Parliamentary Internship Programme",
+    "provider": "National Assembly of Pakistan",
+    "category": "Employment",
+    "audience": "University students, particularly law students, seeking parliamentary/governance exposure",
+    "geography": "Islamabad",
+    "notes": "Unpaid internship. Summer 2026 processed via institutional/university nomination, not open public application.",
+    "official_source": "https://www.na.gov.pk/en/pressrelease.php",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Islamabad"
+      ],
+      "education_level": "Undergraduate",
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": [
+        {
+          "flag": "is_llb_student_at_nominating_university",
+          "reason": "Primarily intended for LLB students nominated through participating universities"
+        }
+      ]
+    }
+  },
+  {
+    "program_name": "Chief Minister Naya Aghaz Program",
+    "provider": "Punjab Prisons Department / Akhuwat Foundation",
+    "category": "Financial Support / Entrepreneurship",
+    "audience": "Deserving prisoners released from Punjab prisons",
+    "geography": "Punjab",
+    "notes": "Interest-free Qarz-e-Hasna loan for economic rehabilitation and social reintegration. Launched July 2026.",
+    "official_source": "https://prisons.punjab.gov.pk/node/1005",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Punjab"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": [
+        {
+          "flag": "is_released_prisoner",
+          "reason": "This programme is specifically for deserving persons released from Punjab prisons"
+        }
+      ]
+    }
+  },
+  {
+    "program_name": "National Expansion Plan of National Incubation Centers (NEP-NICs)",
+    "provider": "MoITT / Punjab Information Technology Board (PITB)",
+    "category": "Entrepreneurship",
+    "audience": "Aspiring technology entrepreneurs and startups",
+    "geography": "Pakistan",
+    "notes": "Monthly stipend, free workspace, mentorship, legal assistance. Centers in Rawalpindi, Taxila, Gujrat, Muzaffarabad, Swat, Kohat, Quetta, Lasbela, Karachi, Hyderabad, Sukkur.",
+    "official_source": "https://pitb.gov.pk/nep-nics",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [
+        "idea",
+        "startup"
+      ],
+      "sector": [
+        "technology"
+      ],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Matric-Tech Program 2026-27",
+    "provider": "Federal Directorate of Education (FDE), Government of Pakistan",
+    "category": "Education",
+    "audience": "Students entering secondary-level education wanting academic + technical/vocational skills combined",
+    "geography": "Islamabad",
+    "notes": "For students who completed Grade VIII. FBISE-recognized certification, technical labs, internships, industry linkages.",
+    "official_source": "https://fde.gov.pk/wp-content/uploads/2026/04/Prospectus-Matric-Tech-2026-27-English-2426-v4.pdf",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Islamabad"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Interest Free Financial Support for Artisans of Punjab to Promote Cottage Industry",
+    "provider": "Punjab Small Industries Corporation (PSIC), Government of Punjab",
+    "category": "Financial Support / Entrepreneurship",
+    "audience": "Artisans and small entrepreneurs in traditional handicrafts and cottage-industry businesses",
+    "geography": "Punjab",
+    "notes": "Up to PKR 500,000 interest-free, repayable over up to 3 years. Requires PSIC artisan registration via Geo Tagging App and clean credit history.",
+    "official_source": "https://psic.punjab.gov.pk/index.php/node/196",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": 21,
+      "age_max": 55,
+      "income_max": null,
+      "provinces": [
+        "Punjab"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [
+        "idea",
+        "startup",
+        "existing"
+      ],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": 500000,
+      "exclude_if_true": [],
+      "require_true": [
+        {
+          "flag": "is_registered_psic_artisan",
+          "reason": "Applicant must be a registered artisan with PSIC through the Geo Tagging App, with a clean credit history"
+        }
+      ]
+    }
+  },
+  {
+    "program_name": "CM Punjab Asaan Karobar Finance",
+    "provider": "Government of Punjab",
+    "category": "Financial Support / Entrepreneurship",
+    "audience": "Existing and prospective SME entrepreneurs in Punjab",
+    "geography": "Punjab",
+    "notes": "0% interest financing PKR 1M-30M for startup funding, expansion, modernization, working capital. Requires valid NTN and clean credit history.",
+    "official_source": "https://punjab.gov.pk/asaan-karobar-finance",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": 25,
+      "age_max": 55,
+      "income_max": null,
+      "provinces": [
+        "Punjab"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [
+        "idea",
+        "startup",
+        "existing"
+      ],
+      "sector": [],
+      "min_funding": 1000000,
+      "max_funding": 30000000,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "CM Punjab Livestock Card",
+    "provider": "Livestock & Dairy Development Department, Government of Punjab",
+    "category": "Financial Support / Agriculture",
+    "audience": "Livestock farmers and small livestock entrepreneurs",
+    "geography": "Punjab",
+    "notes": "PKR 135,000-270,000 interest-free. Requires SPMS-9211 registration and 5-10 male calves/young stock. Prior application window was Nov-Dec 2024 \u2014 check current status.",
+    "official_source": "https://punjab.gov.pk/cm-punjab-livestock-card",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Punjab"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [
+        "existing"
+      ],
+      "sector": [
+        "agriculture",
+        "livestock"
+      ],
+      "min_funding": null,
+      "max_funding": 270000,
+      "exclude_if_true": [],
+      "require_true": [
+        {
+          "flag": "is_registered_livestock_farmer_spms9211",
+          "reason": "Applicant must be registered in the SPMS-9211 livestock system with 5-10 male calves/young stock of cattle or buffalo"
+        }
+      ]
+    }
+  },
+  {
+    "program_name": "PSIC Industrial & Commercial Plots / Sheds Programme 2026",
+    "provider": "Punjab Small Industries Corporation (PSIC), Government of Punjab",
+    "category": "Entrepreneurship",
+    "audience": "Entrepreneurs seeking industrial or commercial premises to establish or expand a business",
+    "geography": "Punjab",
+    "notes": "Access to industrial/commercial plots via auction/allotment, not a direct cash grant. Locations include Gujranwala, Sialkot, Faisalabad, Sargodha, Sahiwal, Bahawalpur, D.G. Khan.",
+    "official_source": "https://psic.punjab.gov.pk/",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Punjab"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [
+        "idea",
+        "startup",
+        "existing"
+      ],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "Korea EPS (Employment Permit System) for Pakistani Workers",
+    "provider": "Bureau of Emigration & Overseas Employment / Republic of Korea EPS",
+    "category": "Employment",
+    "audience": "Pakistani workers seeking legal employment opportunities in South Korea",
+    "geography": "Pakistan",
+    "notes": "Legal overseas employment pathway. Requires Korean language test and medical/character clearance. Ages roughly 18-39.",
+    "official_source": "https://beoe.gov.pk/",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": 18,
+      "age_max": 39,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "National Jobs Portal (NJP) Government Employment Programme",
+    "provider": "National Information Technology Board (NITB), Government of Pakistan",
+    "category": "Employment",
+    "audience": "Citizens seeking verified government employment opportunities",
+    "geography": "Pakistan",
+    "notes": "Centralized government recruitment platform. Eligibility, age and salary vary per individual vacancy.",
+    "official_source": "https://www.njp.gov.pk/",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "National Employment Exchange (NEXT)",
+    "provider": "National Vocational & Technical Training Commission (NAVTTC), Government of Pakistan",
+    "category": "Employment",
+    "audience": "Skilled Pakistani youth and certified jobseekers",
+    "geography": "Pakistan",
+    "notes": "Online job-matching platform connecting certified jobseekers with local and overseas employers.",
+    "official_source": "https://navttc.gov.pk/",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": null,
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  },
+  {
+    "program_name": "NAVTTC Professional Chef Programme",
+    "provider": "National Vocational & Technical Training Commission (NAVTTC), Government of Pakistan",
+    "category": "Skills & Training",
+    "audience": "Pakistani youth interested in professional cooking and culinary careers",
+    "geography": "Pakistan",
+    "notes": "6-month free NVQF Level 4 training, ages 18-40, includes job placement support and potential overseas pathway.",
+    "official_source": "https://navttc.gov.pk/courses/professional-chef/",
+    "last_verified": "2026-09-04",
+    "match_criteria": {
+      "age_min": 18,
+      "age_max": 40,
+      "income_max": null,
+      "provinces": [
+        "Nationwide"
+      ],
+      "education_level": "Matric",
+      "gender": [],
+      "employment_status": [],
+      "business_stage": [],
+      "sector": [],
+      "min_funding": null,
+      "max_funding": null,
+      "exclude_if_true": [],
+      "require_true": []
+    }
+  }
+]

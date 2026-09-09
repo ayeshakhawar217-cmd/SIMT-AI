@@ -1,0 +1,24 @@
+# Python
+simt-backend/.venv/
+simt-backend/__pycache__/
+simt-backend/*.pyc
+
+# Environment variables
+.env
+*.env
+!.env.example
+
+# Node
+simt-frontend/node_modules/
+simt-frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# pnpm
+.pnpm-store/
