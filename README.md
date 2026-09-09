@@ -1,3 +1,4 @@
+<img width="1493" height="704" alt="architecture" src="https://github.com/user-attachments/assets/33316864-9f46-45f3-b1cc-11552442534c" />
 <div align="center">
 
 # SIMT AI
@@ -23,7 +24,8 @@ SIMT AI is an intelligent opportunity-matching platform that connects people in 
 
 <div align="center">
 
-<img src="![Uploading architecture.png…]()
+<img src="<img width="1493" height="704" alt="architecture" src="https://github.com/user-attachments/assets/05957b9e-1266-4829-8eae-5c7fbdba6456" />
+
 " alt="SIMT AI Architecture" width="900">
 
 </div>
