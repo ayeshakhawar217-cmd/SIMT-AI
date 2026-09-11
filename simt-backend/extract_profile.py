@@ -32,7 +32,7 @@ client = Groq(api_key=GROQ_API_KEY)
 # recommended replacement — strong at structured extraction, still free tier.
 # If you hit rate limits during heavy testing, swap to "openai/gpt-oss-20b"
 # — faster, higher limits, slightly less sharp on messy/ambiguous input.
-MODEL = "openai/gpt-oss-20b"
+MODEL = "openai/gpt-oss-120b"
 
 SYSTEM_PROMPT = """You extract structured information from a Pakistani citizen's
 description of their situation, for a system that matches them to government
