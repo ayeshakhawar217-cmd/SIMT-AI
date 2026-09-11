@@ -21,13 +21,18 @@ from groq import Groq
 
 load_dotenv()  # reads the .env file and loads GROQ_API_KEY into the environment
 
-client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+
+if not GROQ_API_KEY:
+    raise RuntimeError("GROQ_API_KEY is not set")
+
+client = Groq(api_key=GROQ_API_KEY)
 
 # llama-3.3-70b-versatile was deprecated by Groq (Aug 2026). Using their
 # recommended replacement — strong at structured extraction, still free tier.
 # If you hit rate limits during heavy testing, swap to "openai/gpt-oss-20b"
 # — faster, higher limits, slightly less sharp on messy/ambiguous input.
-MODEL = "openai/gpt-oss-120b"
+MODEL = "openai/gpt-oss-20b"
 
 SYSTEM_PROMPT = """You extract structured information from a Pakistani citizen's
 description of their situation, for a system that matches them to government
