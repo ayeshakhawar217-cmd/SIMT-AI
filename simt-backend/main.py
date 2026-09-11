@@ -114,8 +114,13 @@ def simt(input: SituationInput):
     except ValueError as e:
         raise HTTPException(status_code=502, detail=f"Could not understand the situation: {e}")
     except Exception as e:
-        raise HTTPException(status_code=502, detail=f"AI service is unavailable right now: {e}")
-
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(
+             status_code=502,
+             detail=f"AI service is unavailable right now: {type(e).__name__}: {e}"
+        )
+    
     try:
         results = rank_programs(profile, PROGRAMS)
     except Exception as e:
