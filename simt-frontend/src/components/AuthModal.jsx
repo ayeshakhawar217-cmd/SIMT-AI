@@ -22,7 +22,11 @@ export default function AuthModal({ onClose, onAuthenticated }) {
     setSubmitting(true);
     const { data, error: authError } = signingUp ? await signUp(email, password) : await signIn(email, password);
     setSubmitting(false);
-    if (authError) { setError(cleanError(authError.message)); return; }
+    if (authError) {
+      console.error("Supabase Auth Error:", authError);
+      setError(authError.message);
+      return;
+    }
     if (data.session) { onAuthenticated(); return; }
     if (signingUp) setNotice("Check your email to confirm your account, then log in to continue.");
   };
